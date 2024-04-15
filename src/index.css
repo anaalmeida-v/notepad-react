@@ -6,10 +6,6 @@
   overflow-wrap: break-word;
 }
 
-.titulo{
-  margin: 0 0 30px 30px;
-}
-
 .inicio{
   padding: 5% 0 0 10%;
 }
@@ -29,15 +25,14 @@ input{
   border: 3px solid #FF5733;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  margin-left: 50px;
   width: 270px;
 }
 
-.notas ul{
-  margin-top: 10px;
+.notas{
+  margin-top: 30px;
 }
 
-.notas ul li{
+.notas .nota{
   border: 3px solid #FF5733;
   border-radius: 5px;
   width: 350px;
@@ -46,10 +41,10 @@ input{
   margin-bottom: 10px;
 }
 
-.recentNotes{
-  justify-content: start;
+.notas a{
+  text-decoration: none;
 }
 
-.inputDiv{
-  margin-left: 32px;
+.conjunto{
+  flex-wrap: wrap;  
 }

@@ -1,15 +1,11 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Inicio from './Inicio';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 import NotaComponent from './NotaComponent';
-import
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route path="/nota" component={NotaComponent} />
-      </Switch>
+      <Route path="/nota" component={NotaComponent} />
     </Router>
   );
 }

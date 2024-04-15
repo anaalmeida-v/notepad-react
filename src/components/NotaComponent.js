@@ -5,7 +5,7 @@ function Nota(props) {
   return (
     <div className="nota">
       <h2>{props.title}</h2>
-      <p>{props.context}</p>
+      <p>{props.content}</p>
     </div>
   );
 }
