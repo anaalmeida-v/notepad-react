@@ -20,7 +20,7 @@ function Inicio() {
         <h1 className="titulo">Notas</h1>
         <div className="row">
           <div className="d-flex justify-content-between">
-            <div className="col-12 col-md-3">
+            <div className="col-12 col-md-3 principal">
               <div className="d-flex inputDiv">
                 <input
                   type="search"

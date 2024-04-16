@@ -1,65 +1,99 @@
-*{
-  color: #FF5733;
+* {
+  color: #ff5733;
   text-align: left;
-  list-style-type:none;
+  list-style-type: none;
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
 
-.inicio{
-  padding: 5% 10% 0 10%;
-}
-
-.inputText{
-  background-color: #FF5733;
-  color: #fff;
-  padding:5px;
-  border-bottom-right-radius: 5px;
-  cursor:grab;
-  border-top-right-radius: 5px;
-}
-
-input{
-  border: none;
-  background-color: #fff;
-  border: 3px solid #FF5733;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  width: 270px;
-}
-
-.notas{
-  margin-top: 30px;
-}
-
-.notas .nota{
-  border: 3px solid #FF5733;
-  border-radius: 5px;
-  width: 350px;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.notas a{
-  text-decoration: none;
-}
-
-p{
-  font-size: 14px;
-}
-
-.menu{
-  background-color: #FF5733;
+/*************menu********************/
+.menu {
+  background-color: #ff5733;
   position: fixed;
   top: 0;
   left: 0;
   width: 2000px;
   height: 80px;
+  padding-right: 5%;
 }
 
+.menuUl ul {
+  display: flex;
+}
+
+.menuUl{
+  display: flex;
+  justify-content:end;
+}
+
+.menuUl li {
+  margin-left: 30px;
+
+}
+
+.menuUl p {
+  color: #fff;
+  font-size: 24px;
+}
+
+.logo{
+  margin-left: 5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/***************página***************/
+.inicio {
+  padding: 5% 10% 0 10%;
+}
+
+/******************input******************/
+.inputText {
+  background-color: #ff5733;
+  color: #fff;
+  padding: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: grab;
+  border-top-right-radius: 5px;
+}
+
+input {
+  border: none;
+  background-color: #fff;
+  border: 3px solid #ff5733;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 270px;
+}
+
+/************notas*************/
+.principal .notas {
+  margin-top: 30px;
+}
+
+.notas .nota {
+  border: 3px solid #ff5733;
+  border-radius: 5px;
+  width: 350px;
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.notas a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 14px;
+}
+
+
+
 .notasAll .nota,
-.notasAll p{
-  background-color: #FF5733;
+.notasAll p {
+  background-color: #ff5733;
   color: #fff;
   margin-left: 10px;
 }

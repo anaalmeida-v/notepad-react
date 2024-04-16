@@ -1,11 +1,16 @@
+import React from "react";
 import notas from "../notas.json";
 
 function NotaIndividual() {
   return (
     <div>
-      <h1>{notas.title}</h1>
-      <h1>{notas.content}</h1>
-      <h1>{notas.category}</h1>
+      {notas.map((nota) => (
+        <div>
+          <h1>{nota.title}</h1>
+          <p>{nota.content}</p>
+          <p>{nota.category}</p>
+        </div>
+      ))}
     </div>
   );
 }
