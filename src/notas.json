@@ -2,21 +2,37 @@
   {
     "id": "1",
     "title": "Lista de Compras",
-    "content": "Comprar leite, pegar pão e adquirir ovos."
+    "content": "Comprar leite, pegar pão e adquirir ovos.",
+    "category": "mercado"
   },
   {
     "id": "2",
     "title": "Ideias para Projeto",
-    "content": "Pesquisar sobre tecnologias emergentes, esboçar o fluxo de trabalho do projeto e fazer uma lista de recursos necessários."
+    "content": "Pesquisar sobre tecnologias emergentes, esboçar o fluxo de trabalho do projeto e fazer uma lista de recursos necessários.",
+    "category": "ideia"
   },
   {
     "id": "3",
     "title": "Tarefas Diárias",
-    "content": "Reunião com equipe às 10h, responder e-mails pendentes e preparar relatório para o cliente."
+    "content": "Reunião com equipe às 10h, responder e-mails pendentes e preparar relatório para o cliente.",
+    "category": "tarefa"
   },
   {
     "id": "4",
     "title": "Receita de Bolo de Chocolate",
-    "content": "Derreter 200g de chocolate meio amargo em banho-maria. Em seguida, misturar com 1 xícara de farinha de trigo e 1 xícara de açúcar. Adicionar a mistura em uma forma untada e levar ao forno por 30 minutos."
+    "content": "Derreter 200g de chocolate meio amargo em banho-maria. Em seguida, misturar com 1 xícara de farinha de trigo e 1 xícara de açúcar. Adicionar a mistura em uma forma untada e levar ao forno por 30 minutos.",
+    "category": "receita"
+  },
+  {
+    "id": "5",
+    "title": "Preparação para a festa",
+    "content": "Comprar doces, organizar salão, contratar organizador de festas e comprar bolo.",
+    "category": "planejamento"
+  },
+  {
+    "id": "6",
+    "title": "Receita de pipoca doce",
+    "content": "Cololar olho e milho na panela, colocar açucar até cobrir toda a pipoca e água até açocar ficar líquido.",
+    "category": "receita"
   }
 ]

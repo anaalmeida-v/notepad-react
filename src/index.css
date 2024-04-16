@@ -7,7 +7,7 @@
 }
 
 .inicio{
-  padding: 5% 0 0 10%;
+  padding: 5% 10% 0 10%;
 }
 
 .inputText{
@@ -36,7 +36,6 @@ input{
   border: 3px solid #FF5733;
   border-radius: 5px;
   width: 350px;
-  height: 200px;
   padding: 10px;
   margin-bottom: 10px;
 }
@@ -45,6 +44,28 @@ input{
   text-decoration: none;
 }
 
-.conjunto{
-  flex-wrap: wrap;  
+p{
+  font-size: 14px;
+}
+
+.menu{
+  background-color: #FF5733;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 2000px;
+  height: 80px;
+}
+
+.notasAll .nota,
+.notasAll p{
+  background-color: #FF5733;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.notasAll {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
 }
